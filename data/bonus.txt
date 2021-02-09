@@ -1,0 +1,9 @@
+Bonus: Try to come up with some reasonable hypotheses regarding POIs, state all assumptions, testing steps and conclusions. Include this as a text file (with a name bonus) in your final submission.
+
+Assumptions: 
+- Each request maps to where a person spends most of their time.
+- Treat POI1 and POI2 as the same POI since their coordinates were the same.
+
+Hypothesis: POI4 is located in a more rural region than the rest. 
+
+Based on the statistics already compiled for each POI, the most obvious difference is found in the standard deviation of distances between POI4 and its request. While its mean distance is comparable to the other POIs, a larger standard deviation implies that there are many kilometers between the requests. Additionally, POI1 and POI3 each have around 49% of the share of total requests. Coupled with a smaller mean distance and standard deviation between requests, it could be concluded that these POIs are located closer to larger cities. 
